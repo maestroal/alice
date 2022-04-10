@@ -1,37 +1,38 @@
 ## Alice the AI.
+Created to train algorithms and logic in developing AI, and helping someone in practicing their pronunciation in English is the main goal in making this all.
 
-You can use the [editor on GitHub](https://github.com/maestroal/alice/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
+## Installing
+Need >=python3.5 and pip 20.0.2(iam use it)
 ```markdown
-Syntax highlighted code block
+pip install alice-ai
+```
+## Run the ALice AI with python file
+```python
+import alice-ai
 
-# Header 1
-## Header 2
-### Header 3
+# this is default settings
+ENGINE = alice-ai.engine()
+ENGINE.start()
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+# use this for advanced settings
+AI_NAME = "Alice" # name robot default, change this with your robot names
+MASTER_NAME = "Maestro Alvardo" # change with your name
+ENGINE = alice-ai.engine()
+ENGINE.start(
+  AI_NAME,
+  MASTER_NAME
+)
 ```
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+## Run the Alice AI with console
+```bash
+# this is for run with default settings
+alice --start
 
-### Jekyll Themes
+# use this for advance settings
+alice --startwith --ainame Alice --mastername Maestro
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/maestroal/alice/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+```
 
-### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+## @Developed by Maestro Alvardo
