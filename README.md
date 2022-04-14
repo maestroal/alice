@@ -1,6 +1,6 @@
 <div align="center">
   <h2>Alice the Virtual Assistant</h2>
-  <img src="https://github.com/maestroal/alice/blob/main/alice.jpg" width="300"/>
+  <img alt="https://w0.peakpx.com/wallpaper/368/441/HD-wallpaper-cute-anime-girl-anime-cat-girl-anime-girl-cartoon-cat-girl-cute-anime.jpg" src="https://github.com/maestroal/alice/blob/main/alice.jpg" width="300"/>
   <img src="https://img.shields.io/badge/-PYTHON-0000ff?style=flat-square&logo=Python&logoColor=white"/>
 
 </div><br>
