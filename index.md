@@ -8,31 +8,22 @@ pip install alice-ai
 ```
 ## Run the ALice AI with python file
 ```python
-import alice-ai
+import alice_ai
 
 # this is default settings
-ENGINE = alice-ai.engine()
+ENGINE = alice_ai.engine()
 ENGINE.start()
 
 # use this for advanced settings
 AI_NAME = "Alice" # name robot default, change this with your robot names
 MASTER_NAME = "Maestro Alvardo" # change with your name
-ENGINE = alice-ai.engine()
-ENGINE.start(
+ENGINE = alice_ai.engine(
   AI_NAME,
   MASTER_NAME
 )
+ENGINE.start()
 ```
 
-## Run the Alice AI with console
-```bash
-# this is for run with default settings
-alice --start
-
-# use this for advance settings
-alice --startwith --ainame Alice --mastername Maestro
-
-```
 
 
 ## @Developed by Maestro Alvardo
