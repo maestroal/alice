@@ -7,7 +7,7 @@
 
 Created to train algorithms and logic in developing AI, and helping someone in practicing their pronunciation in English is the main goal in making this all.
 
-## Installing
+## Installing on Linux
 Need >=python3.5 and pip 20.0.2(iam use it)
 ```markdown
 pip install alice-ai
